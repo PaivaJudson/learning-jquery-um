@@ -25,6 +25,15 @@ $(document).ready(
                 console.log("deixou a regiao da caixa");
             }
         );
+
+
+        $("#tres").keypress(function () { 
+            console.log("foi pressionado");
+        });
+
+        $("#tres").keydown(function () { 
+            console.log("foi baixada");
+        });
         
     }
 );
