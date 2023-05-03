@@ -22,7 +22,7 @@
 
 			<hr />
 
-			<div class="row">
+			<div class="row x">
 				<div class="col-md-4">
 					<h4>Parágrafos (p)</h4>
 				</div>
@@ -34,13 +34,13 @@
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row x">
 				<div class="col-md-4">
 					<p class="bg-primary">Este é um parágrafo</p>
 					<p class="bg-success">Este é outro parágrafo</p>
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-md-4 x">
 					<div style="height: 100px; width: 100px; background:#428bca;" class="pull-left"></div>
 					<div style="height: 100px; width: 100px; background:#5cb85c; margin-left:15px" class="pull-left"></div>
 				</div>
@@ -60,11 +60,11 @@
 				</div>
 
 				<div class="col-md-4">
-					<button type="button" class="btn btn-danger">Esconder divs</button>
-					<button type="button" class="btn btn-success">Exibir divs</button>
+					<button type="button" class="btn btn-danger" onclick="ocultarPorID('xx')">Esconder divs</button>
+					<button type="button" class="btn btn-success" onclick="mostrarPorID('xx')">Exibir divs</button>
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-md-4" id="xx">
 					<button type="button" class="btn btn-danger" onclick="ocultaElementoPorTag('input')">Esconder inputs</button>
 					<button type="button" class="btn btn-success" onclick="exibeElementoPorTag('input')">Exibir inputs</button>
 				</div>
