@@ -35,6 +35,13 @@ $(document).ready(
             console.log("foi baixada");
         });
         
+
+        $("#change").change(function () { 
+            console.log("esta alterando");
+        });
+
+
+
     }
 );
 
